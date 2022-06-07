@@ -1,0 +1,36 @@
+.carousel-inner img {
+    height: 560px;
+    width: 100%;
+}
+
+.carousel-caption {
+    top: 300px;
+    height: 200px;
+}
+
+.carousel-caption h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px #5a80e9;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px #5a80e9;
+}
+
+.carousel-indicators {
+    top: 500px;
+    left: 730px;
+    height: 10px;
+}
+
+@media (max-width: 992px){
+    #hero {
+        height: calc(65vh - 70px);
+    }
+}
